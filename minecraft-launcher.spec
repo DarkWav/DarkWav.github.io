@@ -11,7 +11,7 @@ Group: Amusements/Games
 Packager: DarkWav
 
 %description
-Official Minecraft Launcher
+Minecraft Launcher
 
 %build
 cd %{buildroot}/../src
