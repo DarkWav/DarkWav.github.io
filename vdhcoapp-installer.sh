@@ -39,7 +39,7 @@ cp ./${rpmfile} ../${rpmfile}
 rm -r ../${arch}
 cd ../
 rpmfile=$(find . -name *.rpm)
-# clear
+clear
 echo "########################################################################################################"
 echo ${rpmfile} has been built successfully.
 echo If you whish to install ${rpmfile} or update your current installation,
